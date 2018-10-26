@@ -1,6 +1,6 @@
 #lang racket/base
 
-(provide (all-defined-out))
+(provide (except-out (all-defined-out) defines))
 
 (require ffi/unsafe ffi/unsafe/define syntax/parse/define)
 
